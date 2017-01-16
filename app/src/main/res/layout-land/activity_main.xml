@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:name="com.example.r2d2.weather_r1.FirstFragment"
+        android:layout_gravity="center_vertical"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:name="com.example.r2d2.weather_r1.SecondFragment"
+        android:layout_gravity="center_vertical"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:name="com.example.r2d2.weather_r1.ThirdFragment"
+        android:layout_gravity="center_vertical"
+        tools:layout="@layout/fragment_third2" />
+
+
+</LinearLayout>
